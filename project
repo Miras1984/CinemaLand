@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Код блочного сайта</title>
+/* Стилевое оформление */
+
+<style>
+body{
+  background:#c0c0c0; /* Меняется фон экрана, выбирается здесь */
+}
+
+#wrapper{ /* Оболочка страницы сайта */
+  width: 900px; 
+  margin: 0 auto;
+  background:#f2e8c9; 
+}
+
+/* Шапка сайта */
+
+#header{
+position:relative;
+  height: 250px; 
+  background-color: #ffffff; 
+   margin-bottom: 5px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+img{ /* Фоновая картинка в шапке */
+float: left; 
+  margin: -40px 0 0 0;
+h1{ /* Заголовок сайта */
+  margin:0 0 10px 40px; 
+  color:#464451;
+}
+.nomer{
+  position:absolute;
+  top:5px; 
+  left:680px; 
+  font-size: 25px; 
+  font-style:italic; 
+  font-weight:bold; 
+  color:#464467;
+}
+
+/* колонка справа */
+
+#sidebar{ 
+  background-color: 
+  width: 180px; 
+  padding: 10px; 
+  float: right; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; 
+  margin: 5px 5px 0 0; 
+}
+
+/* Контент */
+
+#content{ 
+  margin-bottom: 5px; 
+  width: 676px; 
+  padding: 10px; 
+  background: #ffffff; 
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 7px 0 7px 7px;
+}
+/* Подвал */
+
+#footer{ 
+  height:80px; 
+  background-color: #  ;
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; 
+}
+.clear{ 
+  clear: both;
+}
+  .fon{ 
+  float:left; 
+  margin:20px 0 0 20px;
+}
+.fax{ /* Номер факса */
+  float:left;
+  margin:20px 0 0 60px;
+}
+.mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 60px;
+}
+</style>
+</head>
+<body>
+  <div id="wrapper"> <!--Оболочка страницы-->
+<!--Шапка сайта-->
+    <div id="header">
+<!--Заголовок сайта-->
+      <h1>Cinema LAND</h1>
+<!--Описание (телефон)-->
+        <p class="nomer">-----<br> ------</p>
+<!--Фоновая картинка в шапке сайта-->
+      <img src="">
+    </div>
+<!--Сайдбар-->
+    <div id="sidebar">
+<!--меню-->
+      <h3>На нашем сайте</h3>
+<!--Картинки маркеров меню (галочки)-->
+        <p><img </p>
+        <p><img </p>
+        <p><img </p>
+<!--Прямая синяя линия-->
+          <hr width="50" color="#037FFC" size="5">
+<!--Общая информация в сайдбаре-->
+      <h3>Другая информация</h3>
+    </div>
+<!--Основной контент (статья)-->
+    <div id="content">
+<!--Картинка слева-->
+      <img >
+<!--Заголовок статьи-->
+        <h3>Наша работа</h3>
+<!--Текст статьи-->
+<p></p>
+<!--Картинка справа-->
+      <img class="right" src="">
+
+
+
+    </div>
+<!--Запрет наплывания-->
+  <div class="clear"></div>
+<!--Подвал-->
+    <div id="footer">
+      <p </p>
+      <p </p>
+      <p </p>
+
+    </div>
+  </div>
+</body>
+</html>
