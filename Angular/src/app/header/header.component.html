@@ -1,0 +1,16 @@
+<div class="header">
+  <div class="text">
+    <p id="cinema">CinemaLand</p>
+    <div class="dropdown">
+      <button onclick="show()" class="dropbtn">Category</button>
+      <div id="myDropdown" class="dropdown-content">
+        <span *ngFor="let c of categories">
+          <a href="/{{c.name}}">{{ c.name }}</a>
+        </span>
+      </div>
+    </div>
+    <a id="new" routerLink="">New</a>
+    <a id="popular" routerLink="/Popular">Popular</a>
+  </div>
+</div>
+

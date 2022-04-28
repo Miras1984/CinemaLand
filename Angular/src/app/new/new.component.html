@@ -1,0 +1,11 @@
+<div class="content">
+  <a href="#" class="film_route">
+    <div class="film" *ngFor="let f of PageFilms">
+      <img height="290px" width="200px" src="{{ f.image }}" alt="{{ f.name }}">
+      <span class="name"> {{f.name}} </span>
+      <p class="year"> {{ f.year }}  {{f.category}}</p>
+    </div>
+  </a>
+
+  <ngb-pagination id="page" class="d-flex justify-content-center" (pageChange)="ChangePage($event)"  [collectionSize]="NewFilms.length" [pageSize]="pageSize" [(page)]="page" [boundaryLinks]="true"></ngb-pagination>
+</div>

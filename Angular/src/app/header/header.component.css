@@ -1,0 +1,105 @@
+.header{
+  position: relative;
+  background-color: grey;
+  /*background-image: url('');*/
+  padding-top: 70px;
+  opacity: .7;
+  padding-bottom: 0px;
+  bottom: 10px;
+  width: 100%;
+  z-index: 10;
+}
+
+.text{
+  position: absolute;
+  left: 150px;
+  top: -20px;
+  text-align: center;
+}
+
+#cinema{
+  position: absolute;
+  font-weight: lighter;
+  font-size: 40px;
+  top: 30px;
+}
+
+.dropbtn {
+  background-color: grey;
+  color: white;
+  padding: 11px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 500px;
+  bottom: -23px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 400px;
+  padding: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.dropdown-content a:hover{
+  background-color: #ddd
+}
+
+.show {
+  display:block;
+}
+
+#new{
+  position: absolute;
+  left: 900px;
+  top: 20px;
+  font-size: 40px;
+  color: #f1f1f1;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  padding-top: 7px;
+}
+
+#new:hover{
+  background-color: #2980B9;
+}
+
+
+#popular{
+  position: absolute;
+  left: 1100px;
+  top: 30px;
+  font-size: 40px;
+  color: #f1f1f1;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+#popular:hover{
+  background-color: #2980B9;
+}

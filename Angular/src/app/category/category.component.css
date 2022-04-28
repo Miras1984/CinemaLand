@@ -1,0 +1,42 @@
+.content{
+  position: absolute;
+  background-color: #234949;
+  width: 1300px;
+  height: 800px;
+  left: 17%;
+  opacity: .7;
+  bottom: 80px;
+  z-index: 1;
+  text-align: center;
+  display: inline-block;
+}
+
+.film{
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  margin: 10px;
+  width: 210px;
+  height: 350px;
+}
+
+.film_route{
+  text-decoration: none;
+}
+
+.name{
+  color: #184218;
+  font-weight: bolder;
+  opacity: 1;
+}
+
+.year{
+  color: #184218;
+  margin: 0;
+}
+
+#page{
+  position: absolute;
+  top: 750px;
+  left: 40%;
+}

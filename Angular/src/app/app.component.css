@@ -1,0 +1,7 @@
+#head{
+  z-index: 10;
+}
+
+#content{
+  z-index: 1;
+}
